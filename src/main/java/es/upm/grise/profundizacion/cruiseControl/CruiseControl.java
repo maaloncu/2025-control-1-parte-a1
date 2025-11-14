@@ -18,17 +18,7 @@ public class CruiseControl {
 
 	}
 
-	class IncorrectSpeedSetException extends RuntimeException {
-		public IncorrectSpeedSetException(String message) {
-			super(message);
-		}
-	}
-
-	class SpeedSetAboveSpeedLimitException extends RuntimeException {
-		public SpeedSetAboveSpeedLimitException(String message) {
-			super(message);
-		}
-	}
+	
 	
 	/*
 	 * Method to code
@@ -59,6 +49,18 @@ public class CruiseControl {
 
 	public Integer getSpeedSet() {
 		return speedSet;
+	}
+
+	class IncorrectSpeedSetException extends RuntimeException {
+		public IncorrectSpeedSetException(String message) {
+			super(message);
+		}
+	}
+
+	class SpeedSetAboveSpeedLimitException extends RuntimeException {
+		public SpeedSetAboveSpeedLimitException(String message) {
+			super(message);
+		}
 	}
 
 }

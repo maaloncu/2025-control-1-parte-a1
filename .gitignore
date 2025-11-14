@@ -1,0 +1,48 @@
+# Build output
+target/
+**/target/
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# IDEs and editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# IntelliJ out
+out/
+
+# MacOS
+.DS_Store
+
+# Temporary files
+*~
+*.tmp
+
+# Test and build reports
+test-classes/
+target/surefire-reports/
+target/site/
+
+# Environment files
+.env
+.env.local
